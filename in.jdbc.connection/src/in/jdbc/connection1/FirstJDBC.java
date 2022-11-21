@@ -10,7 +10,7 @@ public class FirstJDBC {
 			Connection con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/youtube", "root", "");
 
 			if (con.isClosed()) {
-				System.out.println("connection is closed");
+				System.out.println("connection is closed!!!!!!!!!!");
 			} else {
 				System.out.println("connection created...!!!!!!!!!!");
 			}
